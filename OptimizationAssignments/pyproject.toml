@@ -8,4 +8,4 @@ version = "1.0.0"
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["ToolBox"]
+include = ["Toolbox"]
