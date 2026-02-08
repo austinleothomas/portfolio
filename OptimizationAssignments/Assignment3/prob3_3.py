@@ -54,7 +54,7 @@ Tau = 1e-6
  F_Slanted_StrongWolfe_ConjugateGradient,
  Calls_Slanted_StrongWolfe_ConjugateGradient,
  OptConditions_Slanted
- ] = uncon_optimizer(
+ ] = UnconstrainedOptimizer(
      SlantedQuadratic,
      X0_SlantedQuadratic,
      Tau,
@@ -69,7 +69,7 @@ Tau = 1e-6
  F_Rosen_StrongWolfe_ConjugateGradient,
  Calls_Rosen_StrongWolfe_ConjugateGradient,
  OptConditions_Rosen
- ] = uncon_optimizer(
+ ] = UnconstrainedOptimizer(
      TwoDimRosenbrock,
      X0_TwoDimRosenbrock,
      Tau,
@@ -86,7 +86,7 @@ Tau = 1e-6
  F_Slanted_StrongWolfe_SteepestDescent,
  Calls_Slanted_StrongWolfe_SteepestDescent,
  _
- ] = uncon_optimizer(
+ ] = UnconstrainedOptimizer(
      SlantedQuadratic,
      X0_SlantedQuadratic,
      Tau,
@@ -101,7 +101,7 @@ Tau = 1e-6
  F_Rosen_StrongWolfe_SteepestDescent,
  Calls_Rosen_StrongWolfe_SteepestDescent,
  _
- ] = uncon_optimizer(
+ ] = UnconstrainedOptimizer(
      TwoDimRosenbrock,
      X0_TwoDimRosenbrock,
      Tau,
@@ -118,7 +118,7 @@ Tau = 1e-6
  F_Slanted_BackTrack_ConjugateGradient,
  Calls_Slanted_BackTrack_ConjugateGradient,
  _
- ] = uncon_optimizer(
+ ] = UnconstrainedOptimizer(
      SlantedQuadratic,
      X0_SlantedQuadratic,
      Tau,
@@ -133,7 +133,7 @@ Tau = 1e-6
  F_Rosen_BackTrack_ConjugateGradient,
  Calls_Rosen_BackTrack_ConjugateGradient,
  _
- ] = uncon_optimizer(
+ ] = UnconstrainedOptimizer(
      TwoDimRosenbrock,
      X0_TwoDimRosenbrock,
      Tau,
@@ -150,7 +150,7 @@ Tau = 1e-6
  F_Slanted_BackTrack_SteepestDescent,
  Calls_Slanted_BackTrack_SteepestDescent,
  _
- ] = uncon_optimizer(
+ ] = UnconstrainedOptimizer(
      SlantedQuadratic,
      X0_SlantedQuadratic,
      Tau,
@@ -165,7 +165,7 @@ Tau = 1e-6
  F_Rosen_BackTrack_SteepestDescent,
  Calls_Rosen_BackTrack_SteepestDescent,
  _
- ] = uncon_optimizer(
+ ] = UnconstrainedOptimizer(
      TwoDimRosenbrock,
      X0_TwoDimRosenbrock,
      Tau,
