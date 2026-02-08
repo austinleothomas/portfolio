@@ -58,7 +58,7 @@ Tau = 1e-6
      SlantedQuadratic,
      X0_SlantedQuadratic,
      Tau,
-     options = {
+     Options = {
          'LineSearchMethod':'Strong Wolfe',
          'DirectionSearchMethod':'Conjugate Gradient',
          'isReturnData':True
@@ -73,7 +73,7 @@ Tau = 1e-6
      TwoDimRosenbrock,
      X0_TwoDimRosenbrock,
      Tau,
-     options = {
+     Options = {
          'LineSearchMethod':'Strong Wolfe',
          'DirectionSearchMethod':'Conjugate Gradient',
          'isReturnData':True
@@ -90,7 +90,7 @@ Tau = 1e-6
      SlantedQuadratic,
      X0_SlantedQuadratic,
      Tau,
-     options = {
+     Options = {
          'LineSearchMethod':'Strong Wolfe',
          'DirectionSearchMethod':'Steepest Descent',
          'isReturnData':True
@@ -105,7 +105,7 @@ Tau = 1e-6
      TwoDimRosenbrock,
      X0_TwoDimRosenbrock,
      Tau,
-     options = {
+     Options = {
          'LineSearchMethod':'Strong Wolfe',
          'DirectionSearchMethod':'Steepest Descent',
          'isReturnData':True
@@ -122,7 +122,7 @@ Tau = 1e-6
      SlantedQuadratic,
      X0_SlantedQuadratic,
      Tau,
-     options = {
+     Options = {
          'LineSearchMethod':'Backtracking',
          'DirectionSearchMethod':'Conjugate Gradient',
          'isReturnData':True
@@ -137,7 +137,7 @@ Tau = 1e-6
      TwoDimRosenbrock,
      X0_TwoDimRosenbrock,
      Tau,
-     options = {
+     Options = {
          'LineSearchMethod':'Backtracking',
          'DirectionSearchMethod':'Conjugate Gradient',
          'isReturnData':True
@@ -154,7 +154,7 @@ Tau = 1e-6
      SlantedQuadratic,
      X0_SlantedQuadratic,
      Tau,
-     options = {
+     Options = {
          'LineSearchMethod':'Backtracking',
          'DirectionSearchMethod':'Steepest Descent',
          'isReturnData':True
@@ -169,7 +169,7 @@ Tau = 1e-6
      TwoDimRosenbrock,
      X0_TwoDimRosenbrock,
      Tau,
-     options = {
+     Options = {
          'LineSearchMethod':'Backtracking',
          'DirectionSearchMethod':'Steepest Descent',
          'isReturnData':True
